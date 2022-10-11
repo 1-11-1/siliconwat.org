@@ -5,7 +5,7 @@ template.innerHTML = `
     <header>
         <section>
             <a href="index.html"><img src="siliconwat.png"></a>
-            <h1>Silicon Wat Campus</h1>
+            <a href="index.html"><h1>Silicon Wat Campus</h1></a>
         </section>
         <nav>
             <ul>
@@ -15,13 +15,14 @@ template.innerHTML = `
                         <h4>Coding Classes</h4>
                         <menu>
                             <li>English</li>
+                            <li>Khmer</li>
                             <li>Math</li>
                         </menu>
                         <h4>Extracurricular Activities</h4>
                         <menu>
-                            <li>Music Recital</li>
+                            <li>Music Recitals</li>
                             <li>Skate Dancing</li>
-                            <li>Takraw Tournament</li>
+                            <li>Takraw Tournaments</li>
                         </menu>
                     </div>
                 </li>
@@ -30,17 +31,17 @@ template.innerHTML = `
                 <li>
                     <h3>Orchards</h3>
                     <div>
-                        <h4>Classes</h4>
+                        <h4>Outdoor Group Activities</h4>
                         <menu>
-                            <li>Outdoor Cooking Class</li>
-                            <li>Outdoor Meditation Class</li>
-                            <li>Hi</li>
+                            <li>Silent Walking Meditation</li>
+                            <li>Fruit Picking & Eating</li>
+                            <li>Fruit Drink Mixing</li>
                         </menu>
-                        <h4>Farmer's Supermarket</h4>
+                        <h4>Indoor Farmers' Markets</h4>
                         <menu>
-                            <li>Outdoor Cooking Class</li>
-                            <li>Outdoor Meditation Class</li>
-                            <li>Hi</li>
+                            <li class="not-ready">Pro Teal</li>
+                            <li>Chrouy Svay</li>
+                            <li class="not-ready">Phumi Klong</li>
                         </menu>
                     </div>
                 </li>
@@ -49,17 +50,16 @@ template.innerHTML = `
                 <li>
                     <h3>Dorms</h3>
                     <div>
-                        <h4>Dorms</h4>
+                        <h4>Anemities</h4>
                         <menu>
+                            <li>Gondola Ferry</li>
                             <li>Metaverse Arcade</li>
-                            <li>Hi</li>
-                            <li>Hi</li>
                         </menu>
                         <h4>Locations</h4>
                         <menu>
-                            <li>Outdoor Cooking Class</li>
-                            <li>Outdoor Meditation Class</li>
-                            <li>Hi</li>
+                            <li>Pro Teal</li>
+                            <li class="not-ready">Chrouy Svay</li>
+                            <li class="not-ready">Phumi Klong</li>
                         </menu>
                     </div>
                 </li>
@@ -71,8 +71,8 @@ template.innerHTML = `
                         <h4>Team Workshops</h4>
                         <menu>
                             <li>Hack-a-Thon</li>
-                            <li>3D Printing</li>
-                            <li>Internet of Things</li>
+                            <li class="not-ready">3D Printing</li>
+                            <li class="not-ready">Internet of Things</li>
                         </menu>
                         <h4>CEO Club</h4>
                         <menu>
@@ -84,19 +84,20 @@ template.innerHTML = `
             </ul>
             <ul>
                 <li>
-                    <h3>Locations</h3>
+                    <h3>Visit Us!</h3>
                     <div>
+                        <h4>Book</h4>
+                        <menu>
+                            <li>Airbnb</li>
+                        </menu>
                         <h4>Volunteer</h4>
                         <menu>
-                            <li>Metaverse Arcade</li>
-                            <li>Hi</li>
-                            <li>Hi</li>
+                            <li>Tutor</li>
+                            <li>Mentor</li>
                         </menu>
                         <h4>Donate</h4>
                         <menu>
-                            <li>Outdoor Cooking Class</li>
-                            <li>Outdoor Meditation Class</li>
-                            <li>Hi</li>
+                            <li>Benefits</li>
                         </menu>
                     </div>
                 </li>
@@ -104,8 +105,9 @@ template.innerHTML = `
         </nav>
         <aside>
             <select onchange="changeLanguage(event)">
-                <option>English</option>
-                <option>Khmer</option>
+                <option>Cambodia</option>
+                <option disabled>Ukraine</option>
+                <option disabled>United States</option>
             </select>
         </aside>
     </header>
