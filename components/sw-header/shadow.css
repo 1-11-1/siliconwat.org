@@ -1,5 +1,5 @@
 :host {
-	color: black;
+	color: #4c4c4c;
 	background-color: white;
 	padding: 10px;
 	--theme-color: darkcyan;
@@ -14,7 +14,7 @@ header {
 section {
 	flex: 3;
 	display: flex;
-	flex: row nowrap;
+	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
 }
@@ -22,7 +22,7 @@ section {
 nav {
 	flex: 7;
 	display: flex;
-	flex: row nowrap;
+	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
 }
@@ -33,7 +33,7 @@ aside {
 }
 
 h1 {
-	color: darkslategray;
+	color: black;
 }
 
 a {
@@ -97,6 +97,7 @@ menu li:hover {
 
 .not-ready {
 	opacity: 0.3;
+	cursor: default !important;
 }
 
 
@@ -116,7 +117,7 @@ menu li:hover {
 .menu-button::before,
 .menu-button::after {
 	display: block;
-	background-color: #4c4c4c;
+	background-color: currentColor;
 	position: absolute;
 	height: 4px;
 	width: 30px;
@@ -140,7 +141,7 @@ menu li:hover {
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button {
-	background: rgba(255, 255, 255, 0);
+	background: currentColor;
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::after {

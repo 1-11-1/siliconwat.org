@@ -16,7 +16,7 @@ template.innerHTML = `
                 <li>
                     <h3>For Kids</h3>
                     <div>
-                        <button>Volunteer (as Mentor or Tutor)</button>
+                        <button onclick="this.getRootNode().host.dispatch('volunteer')">Volunteer</button>
                         <h4>Coding Classes</h4>
                         <menu>
                             <li>English</li>
@@ -75,17 +75,18 @@ template.innerHTML = `
                 <li>
                     <h3>Startup Incubator</h3>
                     <div>
-                        <button>Apply for Admission</button>
+                        <button onclick="this.getRootNode().host.dispatch('apply')">Apply for Admission</button>
                         <h4>Team Workshops</h4>
                         <menu>
+                            <li>Tech Talks</li>
                             <li>Hack-a-Thon</li>
                             <li class="not-ready">3D Printing</li>
                             <li class="not-ready">Internet of Things</li>
                         </menu>
                         <h4>CEO Club</h4>
                         <menu>
-                            <li>Tech Talks</li>
                             <li>Apply for Funding</li>
+                            <li>Coworking Spaces</li>
                             <li>Portfolio Companies</li>
                         </menu>
                     </div>
@@ -95,7 +96,7 @@ template.innerHTML = `
                 <li>
                     <h3>Visit Us!</h3>
                     <div>
-                        <button>Donate</button>
+                        <button onclick="this.getRootNode().host.dispatch('donate')">Donate</button>
                         <h4>Inclusion & Diversity</h4>
                         <menu>
                             <li>Women & Minorities</li>
