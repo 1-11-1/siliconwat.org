@@ -7,11 +7,16 @@ template.innerHTML = `
             <a href="index.html"><img src="siliconwat.png"></a>
             <a href="index.html"><h1>Silicon Wat Campus</h1></a>
         </section>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+            <span class='menu-button'></span>
+        </label>
         <nav>
             <ul>
                 <li>
                     <h3>For Kids</h3>
                     <div>
+                        <button>Volunteer (as Mentor or Tutor)</button>
                         <h4>Coding Classes</h4>
                         <menu>
                             <li>English</li>
@@ -31,6 +36,7 @@ template.innerHTML = `
                 <li>
                     <h3>Orchards</h3>
                     <div>
+                        <button>Make a Reservation</button>
                         <h4>Outdoor Group Activities</h4>
                         <menu>
                             <li>Silent Walking Meditation</li>
@@ -50,6 +56,7 @@ template.innerHTML = `
                 <li>
                     <h3>Dorms</h3>
                     <div>
+                        <button>Book on Airbnb</button>
                         <h4>Anemities</h4>
                         <menu>
                             <li>Gondola Ferry</li>
@@ -68,6 +75,7 @@ template.innerHTML = `
                 <li>
                     <h3>Startup Incubator</h3>
                     <div>
+                        <button>Apply for Admission</button>
                         <h4>Team Workshops</h4>
                         <menu>
                             <li>Hack-a-Thon</li>
@@ -76,6 +84,7 @@ template.innerHTML = `
                         </menu>
                         <h4>CEO Club</h4>
                         <menu>
+                            <li>Tech Talks</li>
                             <li>Apply for Funding</li>
                             <li>Portfolio Companies</li>
                         </menu>
@@ -86,18 +95,18 @@ template.innerHTML = `
                 <li>
                     <h3>Visit Us!</h3>
                     <div>
-                        <h4>Book</h4>
+                        <button>Donate</button>
+                        <h4>Inclusion & Diversity</h4>
                         <menu>
-                            <li>Airbnb</li>
+                            <li>Women & Minorities</li>
+                            <li>Ukrainian Refugees</li>
+                            <li>Cambodian Genocide</li>
                         </menu>
-                        <h4>Volunteer</h4>
+                        <h4>Remote University</h4>
                         <menu>
-                            <li>Tutor</li>
-                            <li>Mentor</li>
-                        </menu>
-                        <h4>Donate</h4>
-                        <menu>
-                            <li>Benefits</li>
+                            <li>Frontend Engineer</li>
+                            <li>Backend Blockchain</li>
+                            <li>iOS Metaverse</li>
                         </menu>
                     </div>
                 </li>
