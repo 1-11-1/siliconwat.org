@@ -45,9 +45,9 @@ template.innerHTML = `
                         </menu>
                         <h4>Indoor Farmers' Markets</h4>
                         <menu>
-                            <li class="not-ready">Pro Teal</li>
+                            <li>Pro Teal</li>
                             <li>Chrouy Svay</li>
-                            <li class="not-ready">Phumi Klong</li>
+                            <li>Phumi Klong</li>
                         </menu>
                     </div>
                 </li>
@@ -62,11 +62,12 @@ template.innerHTML = `
                             <li>Gondola Ferry</li>
                             <li>Metaverse Arcade</li>
                         </menu>
-                        <h4>Locations</h4>
+                        <h4>Housing</h4>
                         <menu>
-                            <li>Pro Teal</li>
-                            <li class="not-ready">Chrouy Svay</li>
-                            <li class="not-ready">Phumi Klong</li>
+                            <li>Plazas</li>
+                            <li>Suites</li>
+                            <li>Studios</li>
+                            <li>Homes</li>
                         </menu>
                     </div>
                 </li>
@@ -80,13 +81,14 @@ template.innerHTML = `
                         <menu>
                             <li>Livestream Tech Talks</li>
                             <li>Hack-a-Thon</li>
-                            <li class="not-ready">3D Printing</li>
-                            <li class="not-ready">Internet of Things</li>
+                            <li>3D Printing</li>
+                            <li>Internet of Things</li>
                         </menu>
                         <h4>CEO Club</h4>
                         <menu>
-                            <li>Apply for Funding</li>
+                            <li>Apply for Funding at HeartBank®</li>
                             <li>Coworking Spaces</li>
+                            <li>Live-in Accommodations</li>
                             <li>Portfolio Companies</li>
                         </menu>
                     </div>
