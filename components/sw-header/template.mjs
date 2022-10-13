@@ -78,7 +78,7 @@ template.innerHTML = `
                         <button onclick="this.getRootNode().host.dispatch('apply')">Apply for Admission</button>
                         <h4>Team Workshops</h4>
                         <menu>
-                            <li>Tech Talks</li>
+                            <li>Livestream Tech Talks</li>
                             <li>Hack-a-Thon</li>
                             <li class="not-ready">3D Printing</li>
                             <li class="not-ready">Internet of Things</li>
@@ -96,7 +96,7 @@ template.innerHTML = `
                 <li>
                     <h3>Visit Us!</h3>
                     <div>
-                        <button onclick="this.getRootNode().host.dispatch('donate')">Donate</button>
+                        <button onclick="this.getRootNode().host.dispatch('donate')">Donate with GitHub</button>
                         <h4>Inclusion & Diversity</h4>
                         <menu>
                             <li>Women & Minorities</li>
