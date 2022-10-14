@@ -4,8 +4,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/sw-header/shadow.css">
     <header>
         <section>
-            <a href="index.html"><img src="siliconwat.png"></a>
-            <a href="index.html"><h1>Silicon Wat Campus</h1></a>
+            <a href="/"><img src="siliconwat.png"></a>
+            <a href="/"><h1>Silicon Wat Campus</h1></a>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -40,8 +40,8 @@ template.innerHTML = `
                         <h4>Outdoor Group Activities</h4>
                         <menu>
                             <li>Silent Walking Meditation</li>
-                            <li>Fruit Picking & Eating</li>
-                            <li>Fruit Drink Mixing</li>
+                            <li>Tropical Fruit Picking & Eating</li>
+                            <li>Tropical Fruit Drink Mixing</li>
                         </menu>
                         <h4>Indoor Farmers' Markets</h4>
                         <menu>
@@ -59,15 +59,15 @@ template.innerHTML = `
                         <button>Book on Airbnb</button>
                         <h4>Anemities</h4>
                         <menu>
-                            <li>Gondola Ferry</li>
+                            <li>Study Groups</li>
                             <li>Metaverse Arcade</li>
+                            <li>Gondola Ferry</li>
                         </menu>
                         <h4>Housing</h4>
                         <menu>
                             <li>Plazas</li>
                             <li>Suites</li>
                             <li>Studios</li>
-                            <li>Homes</li>
                         </menu>
                     </div>
                 </li>
@@ -96,7 +96,7 @@ template.innerHTML = `
             </ul>
             <ul>
                 <li>
-                    <h3>Visit Us!</h3>
+                    <h3>Vacay Here!</h3>
                     <div>
                         <button onclick="this.getRootNode().host.dispatch('donate')">Donate with GitHub</button>
                         <h4>Inclusion & Diversity</h4>
@@ -107,7 +107,7 @@ template.innerHTML = `
                         </menu>
                         <h4>Remote University</h4>
                         <menu>
-                            <li>Frontend Engineer</li>
+                            <li>Frontend Music</li>
                             <li>Backend Blockchain</li>
                             <li>iOS Metaverse</li>
                         </menu>
